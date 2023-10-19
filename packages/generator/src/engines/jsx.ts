@@ -19,5 +19,5 @@ export interface PandaJsxEngine {
   typeName: string
   componentName: string
   framework: UserConfig['jsxFramework']
-  styleProps: 'all' | 'minimal' | 'none'
+  styleProps: UserConfig['jsxStyleProps']
 }
