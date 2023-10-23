@@ -1,5 +1,20 @@
 # @pandacss/generator
 
+## 0.17.1
+
+### Patch Changes
+
+- 42520626: Fix issue where conditions don't work in semantic tokens when using template literal syntax.
+- 5ce359f6: Fix issue where styled objects are sometimes incorrectly merged, leading to extraneous classnames in the DOM
+- Updated dependencies [aea28c9f]
+- Updated dependencies [5ce359f6]
+  - @pandacss/core@0.17.1
+  - @pandacss/shared@0.17.1
+  - @pandacss/token-dictionary@0.17.1
+  - @pandacss/is-valid-prop@0.17.1
+  - @pandacss/logger@0.17.1
+  - @pandacss/types@0.17.1
+
 ## 0.17.0
 
 ### Minor Changes
